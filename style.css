@@ -1,0 +1,89 @@
+.hero-img {
+    background-image: url(https://images.unsplash.com/photo-1577931170527-cb5c8f39020c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2lnYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+    
+     
+     
+    
+}
+
+.humidor-image {
+    
+    
+}
+
+
+.header-text {
+    font-size: 4em;
+}
+
+.big-card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+
+
+.title-font {
+    font-family: 'Bungee Inline', cursive;
+ 
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.my-card {
+    background: rgb(230, 160, 63);
+    border: 1px solid brown;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px;
+    
+}
+
+.over-card {
+    transform: translateY(65px);
+    
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+ 
+.vertical-align{
+    vertical-align: text-top;
+}
+
+.review-card1 {
+    height: 100%;
+    object-fit: cover;
+   
+
+}
+
+.review-card2 {
+    height: 100%;
+    object-fit: cover;
+    
+
+    
+}
+
+
+.shadow-text {
+    text-shadow: 5px 5px 10px black;
+    
+
+}
+
+.hover:hover {
+    transform: scale(1.03);
+  }
